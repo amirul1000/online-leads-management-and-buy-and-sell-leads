@@ -1,0 +1,20 @@
+{
+  "blogname": "Segments",
+  "blogdescription": "Business CRM & Projects WordPress Theme",
+  "show_on_front": "page",
+  "permalink_structure": "/%postname%/",
+  "page_on_front": "front",
+  "page_for_posts": "blog",
+  "locations": {
+    "primary": "primary",
+    "social": "social",
+    "authenticated": "authenticated"
+  },
+  "widget_menus": {
+    "6": "backend-company",
+    "4": "backend-client",
+    "5": "backend-project",
+    "9": "backend-leads",
+    "3": "primary"
+  }
+}

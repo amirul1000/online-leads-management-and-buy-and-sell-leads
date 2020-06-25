@@ -1,0 +1,307 @@
+.secondary-wrapper {
+	.widget {
+		margin-bottom: 30px;
+	}
+
+  	.widgettitle {
+	    color: rgba(#fff, .7);
+	    font-size: 11px;
+	    font-weight: 400;
+	    margin: 10px 0 20px 0;
+	    height: 13px;
+	    padding: 0 ;
+	    text-transform: uppercase;
+	}
+}
+
+.sidebar {
+	input[type=submit] {
+		width: 100% !important;
+	}
+
+	select {
+		width: 100%;
+	}
+
+	strong {
+		color: $color-black-darker;
+		font-weight: 500;
+	}
+
+	.wp-caption-text {
+		color: $color-black-light;
+		font-size: 11px;
+		font-style: italic;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	.widget {
+		background-color: #fafafa;
+		border-radius: 3px;
+		box-shadow: 0 1px 2px rgba(#000, .12);
+		margin: 0 0 30px 0;
+		padding: 20px;
+	}
+
+	.widgettitle {
+		border-bottom: 1px solid rgba(#000, .06);
+		color: $color-black-darker;
+		font-size: 15px;
+		font-weight: 400;
+		margin: 0 0 15px 0;
+		padding: 0 0 15px 0;
+	}
+
+	.widget_rss .rsswidget {
+		color: $color-black-darker;
+		font-weight: 500;
+	}
+
+	.widget {
+		margin: 0 0 40px 0;
+
+		img {
+			height: auto;
+			max-width: 100%;
+		}
+
+		.promo {
+			background-color: $color-secondary;
+			border-radius: 3px;
+			color: #fff;
+			margin: -20px;			
+			padding: 15px 20px;
+
+			h3 {
+				border-bottom-color: rgba(#fff, .2);
+				color: #fff;
+				font-size: 15px;
+				margin: 0 0 15px 0;
+				padding: 0 0 15px 0;
+			}			
+
+			p {
+				color: rgba(#fff, .8);
+				font-size: 12px;
+				margin: 0 0 15px 0;
+			}
+
+			.btn {
+				color: $color-black-darker;
+				font-size: 11px;
+				height: 36px;
+				line-height: 36px;
+				padding: 0 16px;
+				text-shadow: none;
+			}
+		}
+
+		.document-download {
+			background-color: $color-black-darker;
+			border-radius: 3px;
+			color: #fff;
+			display: block;
+			margin: -20px;			
+			padding: 15px 20px;
+			text-decoration: none;
+
+			.fa {
+				font-size: 22px;
+				margin: 0 10px 0 0;
+				vertical-align: middle;
+			}
+
+			span {
+				font-size: 13px;
+				vertical-align: -3px;							
+			}
+		}
+	}
+
+	.menu, .widget_recent_entries, .widget_meta, .widget_pages {
+		li {
+			border-bottom: 1px solid rgba(#000, .06);
+
+			&:last-child {
+				border-bottom: 0;
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+
+			a {
+				display: block;
+				padding-left: 20px;
+				position: relative;				
+
+		        &:before {
+		          -webkit-font-smoothing: antialiased;
+		          content: '\e906';
+		          color: $color-secondary;
+		          font-family: 'Segments';
+		          font-size: 12px;
+		          left: 0;		          
+		          position: absolute;
+		        }				
+			}
+		}
+	}
+}
+
+.widget_categories, .widget_archive, .widget_pages, .widget_meta, .widget_recent_comments, .widget_nav_menu, .widget_rss, .widget_recent_entries {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		ul {
+			border-left: 3px solid rgba(#000, .04);
+			margin: 6px 0 0 0;
+			padding: 0 0 0 14px;
+		}
+	}
+
+	li {
+		color: $color-black-light;
+		line-height: 24px;
+		padding: 9px 0;
+	}
+
+	a {
+		color: $color-black-light;
+		text-decoration: none;
+
+		&:hover {
+			color: $color-secondary;
+		}
+	}
+
+	cite {
+		display: block;
+		font-size: 12px;
+		text-align: right;
+	}
+
+	.rsswidget {
+		color: $color-black;
+		display: block;
+		font-weight: 700;
+		line-height: 1.4;
+		margin: 0 0 5px 0;
+	}
+
+	.rss-date {
+		color: rgba($color-black, .6);
+		display: block;
+		font-size: 12px;
+		margin: -5px 0 10px 0;
+	}
+}
+
+#wp-calendar {
+	width: 100%;
+
+	caption {
+		color: rgba($color-black, .4);
+		font-size: 12px;
+		font-weight: 700;
+		margin: 0 0 14px 0;
+		text-transform: uppercase;
+	}
+
+	thead {
+		font-size: 12px;
+
+		th {
+			color: $color-black-darker;
+			font-weight: 500;
+			padding: 7px 0;
+		}
+	}
+
+	tbody {
+		font-size: 13px;
+
+		#today {
+			background-color: $color-secondary;
+
+			a {
+				color: #fff;
+			}
+		}
+
+		td {
+			color: rgba($color-black, .6);
+			padding: 7px 0;
+			text-align: center;
+
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+
+	tfoot {
+		td {
+			padding: 7px 0;
+
+			a {
+				color: $color-secondary;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.tagcloud {
+	a {
+		border: 1px solid rgba(#000, .1);
+		border-radius: 12px;
+		color: rgba($color-black, .7);
+		font-size: 12px !important;
+		line-height: 36px;
+		margin: 0 10px 0 0;
+		padding: 4px 14px;
+		text-decoration: none;
+		transition: all .4s ease;
+		white-space: nowrap;
+
+		&:hover {
+			border-color: rgba(#000, .3);
+		}
+	}
+}
+
+.workforce-touchpoints-create, .workforce-tasks-create, .workforce-projects-create {
+	border: 1px solid rgba(#000, .09);
+	color: $color-black-light;
+	font-size: 0;
+	height: 26px;
+	line-height: 26px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-shadow: none;
+	transition: colors .2s ease;
+	width: 26px;
+
+	&:before {			
+		content: '\e908';
+		font-family: 'Segments';				
+		font-size: 16px;;
+	}
+
+	&:hover {
+		color: $color-black;
+	}	
+}
+
+.widget_touchpoints, .widget_tasks, .widget_projects {
+	position: relative;
+
+	.btn {
+		position: absolute;
+		right: 14px;
+		top: 14px;
+	}	
+}

@@ -1,0 +1,6 @@
+Version 1.1
+* Fixed: Missed header style on some pages
+
+
+Version 1.0
+Release

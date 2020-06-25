@@ -1,0 +1,97 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100vw;
+
+  .admin-bar & {
+    min-height: calc(100vh - 32px);
+    padding-top: 32px;
+
+    @media (max-width: 782px) {
+      padding-top: 46px;
+    }    
+  }
+
+  &.simple {
+    flex-direction: column;    
+  }
+}
+
+.site-main {
+  clear: both;
+}
+
+.main-wrapper {
+  flex-grow: 1;
+
+  .simple & {    
+    background-image: linear-gradient(to bottom, #f9f9f9, #fff 110px);
+    padding-top: 80px;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content-area {
+  background-color: #f9f9f9;
+  flex-grow: 1;
+  padding: 40px;
+
+  @media (max-width: $tablet) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .public & {
+    background: none;
+    padding: 0;
+  }
+
+  .public.has-sidebar & {
+    @media (min-width: $desktop) {
+      @include span(6 of 8);
+    }
+  }
+
+  .page-template-page-home & {
+    width: 100% !important;
+  }
+}
+
+.sidebar {
+  @media (min-width: $desktop) {
+    @include span(2 of 8);
+    @include last();    
+  }
+
+
+  .private & {
+    display: none;
+  }
+}
+
+.header-wrapper {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(#000, .09);
+  
+  height: 74px;
+  padding: 0 40px;
+}
+
+.container {
+  @include container($container-width);
+
+  box-sizing: border-box;
+  padding: 0 40px;
+  
+  @media (max-width: $tablet) {
+    padding-left: $small-device-padding;
+    padding-right: $small-device-padding;
+  }
+}

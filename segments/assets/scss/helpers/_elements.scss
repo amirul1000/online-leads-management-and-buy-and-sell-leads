@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: $color-background;
+  color: $color-black;
+  font-size: 13px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  color: $color-secondary;
+  transition: color .2s ease;
+}
+
+p {
+  line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color-black-darker;
+  margin: 0;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+    border-bottom: 1px solid rgba(#000, .09);
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    padding: 0 0 10px 0;
+}
+
+blockquote {
+    background-color: rgba(#000, .04);
+    border-radius: 3px;
+    color: $color-black-light;
+    font-style: italic;
+    margin: 0 0 30px 0;
+    overflow: hidden;
+    padding: 16px 30px;
+    position: relative;
+
+    p {
+      margin: 0;
+    }
+
+    &:after {
+      -webkit-font-smoothing: antialiased;
+      bottom: -10px;
+      content: '\f10d';
+      color: $color-secondary;
+      font-family: 'FontAwesome';
+      font-size: 50px;
+      position: absolute;
+      right: 5px;
+    }
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(#000, .06);
+}

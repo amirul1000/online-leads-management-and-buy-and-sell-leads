@@ -1,0 +1,74 @@
+.post-type-archive {
+	.post.type-testimonial {
+		border-bottom: 0;
+		margin-bottom: 30px;
+		padding-bottom: 0;
+				
+		@media (min-width: $desktop) {
+			@include span(5 of 10);
+
+			&:nth-child(2n) {
+				@include last();
+			}
+		}
+
+		.post-thumbnail {
+			float: left;
+			margin: 15px 15px 0 0;
+		}
+
+		.post-thumbnail-inner {
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			border-radius: 50%;
+			height: 38px;
+			width: 38px;
+		}	
+
+		.post-content {
+			background-color: rgba(#000, .04);
+			border-radius: 3px;
+			color: $color-black-light;
+			font-style: italic;
+			overflow: hidden;
+			padding: 16px 30px;
+			position: relative;
+
+			p {
+				margin: 0;
+			}
+
+			&:after {
+				-webkit-font-smoothing: antialiased;
+				bottom: -10px;
+				content: '\f10d';
+				color: $color-secondary;
+				font-family: 'FontAwesome';
+				font-size: 50px;
+				position: absolute;
+				right: 5px;
+			}
+		}
+
+		.post-title {
+			color: $color-black;
+			float: left;
+			font-size: 13px;
+			line-height: 38px;
+			margin: 15px 0 0 0;
+			padding: 0;
+			position: relative;
+
+			&:after {
+				border: 5px solid transparent;
+				border-left-color: rgba(#000, .04);
+				border-top-color: rgba(#000, .04);
+				content: '';
+				height: 0;
+				position: absolute;				
+				top: -15px;
+			}
+		}
+	}
+}

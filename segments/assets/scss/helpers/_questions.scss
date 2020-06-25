@@ -1,0 +1,50 @@
+.post-type-archive {
+	.post.type-question {
+		border: 1px solid rgba(#000, .09);
+		box-sizing: border-box;
+		margin-bottom: 30px;
+		padding-bottom: 0;		
+
+		@media (min-width: $desktop) {
+			@include span(5 of 10);
+
+			&:nth-child(2n) {				
+				@include last();
+			}
+		}
+
+		.post-title {
+			border-bottom: 1px solid rgba(#000, .09);
+			font-size: 15px;
+			margin: 0;
+			padding: 15px;
+
+			strong {
+				color: $color-secondary;
+				font-weight: 500;
+				margin: 0 12px 0 0;
+			}
+		}
+
+		.post-content {
+			color: $color-black-light;
+			padding: 15px;
+
+			p {
+				margin: 0;
+			}
+		}
+
+		.post-content-inner {
+			display: table-cell;
+		}
+
+		.post-content-answer-sign {
+			color: $color-secondary;
+			display: table-cell;
+			font-size: 15px;
+			font-weight: 500;
+			padding: 0 15px 0 0;
+		}
+	}
+}

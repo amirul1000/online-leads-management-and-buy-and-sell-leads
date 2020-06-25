@@ -1,0 +1,62 @@
+.box {
+  background-color: #fff;
+  border: 1px solid rgba(#000, .09);
+  border-radius: 3px;
+  padding: 25px;
+
+  h3.widget-title {
+    border-bottom: 1px solid rgba(#000, .09);
+    font-size: 16px;
+    font-weight: 400;
+    margin: -10px -25px 25px -25px;
+    padding: 0 25px 15px 25px;
+
+    a {
+      color: $color-black;
+      float: right;
+      font-size: 13px;
+      font-weight: 400;
+      margin: -10px 0 0 0;
+      padding: 0;
+      text-shadow: none;
+      text-transform: inherit;
+    }
+  }
+
+  .show-all {
+    border-top: 1px solid rgba(#000, .09);
+    margin: 25px -25px 0 -25px;
+    text-align: center;
+
+    a {
+      color: $color-black;
+      display: block;
+      margin: 0 0 -25px 0;
+      padding: 16px 0;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-black-darker;
+      }
+    }
+  }
+}
+
+.box #calendar {
+  margin: -26px;
+
+  .fc-toolbar {
+    background-color: rgba(#000, .03);
+    margin: 0;
+    padding: 10px 25px;
+
+    h2 {
+      font-size: 15px;
+    }
+
+    .fc-button {
+      height: 30px;
+      margin-top: 4px;
+    }
+  }
+}

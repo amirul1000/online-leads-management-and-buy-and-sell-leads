@@ -1,0 +1,123 @@
+.overview {
+	@media (min-width: $desktop) {
+		display: flex;
+	}	
+
+	width: 100%;
+}
+
+.overview-item {	
+	flex-grow: 1;
+
+	@media (min-width: $desktop) {
+		&:first-child {
+			.overview-item-inner {
+				margin-left: 0;
+			}
+		}
+
+		&:last-child {
+			.overview-item-inner {
+				margin-right: 0;
+			}
+		}	
+	}
+
+	@media (max-width: $desktop) {
+		&:last-child {
+			.overview-item-inner {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	h3 {
+		border: 0;
+		font-size: 11px;
+		font-weight: 600;
+		margin: 5px 0 5px 0;
+		padding: 0;
+		text-transform: uppercase;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			line-height: 20px;
+		}
+
+		strong {
+			color: $color-black-light;
+			font-size: 12px;
+			font-weight: 400;
+		}
+
+		span {
+			color: $color-black-darker;
+			float: right;
+			font-weight: 600;
+		}
+	}
+}
+
+.overview-item-inner {
+	background-color: rgba(#000, .02);
+	border: 1px solid rgba(#000, .09);
+	border-radius: 3px;
+	margin: 0 10px;
+	padding: 14px 20px;
+
+	@media (max-width: $desktop) {
+		margin: 0 0 15px 0;
+	}	
+}
+
+.overview-invoices, .overview-tasks, .overview-estimates, .overview-revenue {	
+	.overview-item-inner {
+		&:before {
+			-webkit-font-smoothing: antialiased;
+			background-image: linear-gradient(to bottom, lighten($color-purple, 5%), darken($color-purple, 5%));
+			border-radius: 50%;
+			content: '\e917';
+			color: #fff;
+			float: left;
+			font-family: 'Segments';
+			font-size: 20px;
+			height: 50px;			
+			line-height: 50px;
+			margin: 6px 20px 0 0;
+			text-align: center;
+			width: 50px;
+		}
+	}
+}
+
+.overview-tasks {	
+	.overview-item-inner {
+		&:before {
+			background-image: linear-gradient(to bottom, lighten($color-indigo, 5%), darken($color-indigo, 5%));
+			content: '\e910';
+		}
+	}
+}
+
+.overview-estimates {	
+	.overview-item-inner {
+		&:before {
+			background-image: linear-gradient(to bottom, lighten($color-teal, 5%), darken($color-teal, 5%));
+			content: '\e937';
+		}
+	}
+}
+
+.overview-revenue {	
+	.overview-item-inner {
+		&:before {
+			background-image: linear-gradient(to bottom, lighten($color-cyan, 5%), darken($color-cyan, 5%));
+			content: '\e9ae';
+		}
+	}
+}

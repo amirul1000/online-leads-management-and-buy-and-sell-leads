@@ -1,0 +1,75 @@
+.workforce-activity {	
+	position: relative;
+
+	h3 {
+		border: 0;
+		display: block;
+		line-height: 1.5;
+		font-size: 12px;
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+
+		.secondary-wrapper &, .side & {
+			color: #fff;
+		}		
+	}	
+}
+
+.workforce-activity-item {
+	@include susy-clearfix();
+
+	border-bottom: 1px solid rgba(#000, .08);
+	margin: 0 -25px 15px -25px;
+	padding: 0 25px 15px 25px;
+	position: relative;
+
+	.secondary-wrapper &, .side & {
+		border-bottom: 1px solid rgba(#fff, .12);
+	}
+
+	.avatar {
+		float: left;
+	}
+
+	&:last-child {
+		border-bottom: 0;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+
+.workforce-activity-content {
+	display: table-cell;
+}
+
+.workforce-activity-message {
+	.secondary-wrapper &, .side & {
+		color: rgba(#fff, .8);
+	}
+	
+	font-size: 12px;
+	line-height: 20px;
+
+	a {
+		color: $color-black-darker;			
+		text-decoration: underline;
+
+		.secondary-wrapper &, .side & {
+			color: #fff;
+		}		
+	}		
+}
+
+.workforce-activity-date {
+	color: $color-black-light;
+	font-size: 11px;
+	margin: 0 0 2px 0;
+	padding: 1px 0 0 0;
+
+	.secondary-wrapper &, .side & {
+		color: rgba(#fff, .6);
+	}
+}

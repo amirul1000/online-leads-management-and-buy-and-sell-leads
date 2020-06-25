@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Segments\n"
+"POT-Creation-Date: 2017-01-17 11:38+0100\n"
+"PO-Revision-Date: 2017-01-17 11:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: plugins\n"
+
+#: 404.php:4
+msgid "Oops! 404, page not found."
+msgstr ""
+
+#: 404.php:5
+msgid "Head Back Home"
+msgstr ""
+
+#: comments.php:12 comments.php:30
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:13 comments.php:31
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:36
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: comments.php:42
+msgid "Write a Comment"
+msgstr ""
+
+#: comments.php:44
+msgid "Comment"
+msgstr ""
+
+#: comments.php:46
+msgid "Name"
+msgstr ""
+
+#: comments.php:47
+msgid "Email"
+msgstr ""
+
+#: comments.php:48
+msgid "Website"
+msgstr ""
+
+#: functions.php:57 functions.php:71
+msgid "Primary"
+msgstr ""
+
+#: functions.php:58
+msgid "Social"
+msgstr ""
+
+#: functions.php:59
+msgid "Authenticated"
+msgstr ""
+
+#: functions.php:72
+msgid "Header Top Left"
+msgstr ""
+
+#: functions.php:73
+msgid "Header Top Right"
+msgstr ""
+
+#: functions.php:74
+msgid "Backend"
+msgstr ""
+
+#: functions.php:75
+msgid "Footer Top First"
+msgstr ""
+
+#: functions.php:76
+msgid "Footer Top Second"
+msgstr ""
+
+#: functions.php:77
+msgid "Footer Top Third"
+msgstr ""
+
+#: functions.php:78
+msgid "Footer Top Fourth"
+msgstr ""
+
+#: functions.php:79
+msgid "Footer Bottom First"
+msgstr ""
+
+#: functions.php:80
+msgid "Footer Bottom Second"
+msgstr ""
+
+#: functions.php:186
+msgid "Segments Hero"
+msgstr ""
+
+#: functions.php:191
+msgid "Background Type"
+msgstr ""
+
+#: functions.php:196
+msgid "Particles"
+msgstr ""
+
+#: functions.php:197
+msgid "Image"
+msgstr ""
+
+#: functions.php:204
+msgid "Background Image"
+msgstr ""
+
+#: functions.php:212
+msgid "Background Opacity"
+msgstr ""
+
+#: functions.php:221
+msgid "Background Size"
+msgstr ""
+
+#: functions.php:230
+msgid "Title"
+msgstr ""
+
+#: functions.php:239
+msgid "Text"
+msgstr ""
+
+#: functions.php:248
+msgid "Below"
+msgstr ""
+
+#: functions.php:255
+msgid "Segments Demo"
+msgstr ""
+
+#: functions.php:260
+msgid "Login"
+msgstr ""
+
+#: functions.php:269
+msgid "Password"
+msgstr ""
+
+#: functions.php:320
+msgid "Read more"
+msgstr ""
+
+#: functions.php:393
+msgid "Page Builder by SiteOrigin"
+msgstr ""
+
+#: functions.php:399
+msgid "Widget Logic"
+msgstr ""
+
+#: functions.php:405
+msgid "Envato Market"
+msgstr ""
+
+#: functions.php:412
+msgid "Segments Core"
+msgstr ""
+
+#: functions.php:421
+msgid "Workforce"
+msgstr ""
+
+#: page-form.php:10
+msgid "Return back"
+msgstr ""
+
+#: searchform.php:9
+msgid "Type to search site"
+msgstr ""
+
+#: templates/content-comment.php:29
+msgid "Reply"
+msgstr ""
+
+#: templates/content-comment.php:42
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/content-dashboard-action.php:5
+msgid "Dashboard"
+msgstr ""
+
+#: templates/content-empty.php:2
+msgid "No results found."
+msgstr ""
+
+#: templates/content-header-public.php:66
+msgid "Search results matching query"
+msgstr ""
+
+#: templates/content-header-public.php:68
+msgid "Recent news from"
+msgstr ""
+
+#: templates/content-member.php:50 templates/content.php:62
+msgid "Post Pages:"
+msgstr ""
+
+#: templates/content-pagination.php:2
+msgid "Previous page"
+msgstr ""
+
+#: templates/content-pagination.php:3
+msgid "Next page"
+msgstr ""
+
+#: templates/content-pagination.php:4
+msgid "Page"
+msgstr ""
+
+#: templates/content-question.php:4
+msgid "Q"
+msgstr ""
+
+#: templates/content-question.php:10
+msgid "A"
+msgstr ""

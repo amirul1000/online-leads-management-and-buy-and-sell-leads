@@ -1,0 +1,49 @@
+.faq {
+
+}
+
+.faq-item {
+  @include span(6 of 12);
+
+  &:nth-child(2n) {
+    @include last();
+  }
+}
+
+.faq-question {
+  color: $color-black-darker;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+  position: relative;
+
+  &:before {
+    background-color: $color-primary;
+    color: #fff;
+    content: 'Q';
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    height: 34px;
+    line-height: 34px;
+    margin: 0 20px 0 0;
+    text-align: center;
+    width: 34px;
+  }
+
+  &:after {
+    border: 3px solid transparent;
+    border-top-color: $color-primary;
+    border-right-color: $color-primary;
+    content: '';
+    left: 28px;
+    position: absolute;
+    top: 34px;
+  }
+}
+
+.faq-answer {
+  border-top: 1px solid rgba(#000, .05);
+  font-size: 13px;
+  margin: 0 0 30px 54px;
+}

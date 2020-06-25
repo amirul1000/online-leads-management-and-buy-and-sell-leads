@@ -1,0 +1,144 @@
+.footer-wrapper {
+  margin-top: 60px;
+}
+
+.footer-top {
+  @include susy-clearfix();
+
+  background-color: #f9f9f9;
+  margin: 0 -1200px;
+  padding: 50px 1200px;
+
+  p {
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+  }
+
+  b {
+    color: $color-black-darker;
+  }
+
+  .widgettitle {
+    border-bottom: 1px solid rgba(#000, .08);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+    padding: 0 0 15px 0;
+  }
+
+  .menu {
+    li {
+      margin: 0;
+      padding: 0;
+
+      &:last-child {
+        a {
+          border-bottom: 0;
+        }
+      }
+
+      a {
+        border-bottom: 1px solid rgba(#000, .06);
+        color: $color-black;
+        display: block;
+        font-size: 13px;
+        padding: 10px 0;
+
+        &:before {
+          -webkit-font-smoothing: antialiased;
+          content: '\e906';
+          color: $color-secondary;
+          font-family: 'Segments';
+          font-size: 12px;
+          margin: 0 9px 0 0;
+        }
+      }
+    }
+  }
+
+
+  .sub-menu {
+    display: none;
+  }
+}
+
+.footer-top-first,
+.footer-top-second,
+.footer-top-third,
+.footer-top-fourth {
+  @media (max-width: $tablet) {
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: $tablet) {
+    @include span(2 of 8);
+  }
+}
+
+.footer-top-fourth {
+  @media (min-width: $tablet) {
+    @include last();
+  }
+}
+
+.footer-bottom {
+  @include susy-clearfix();
+
+  background-color: $color-primary;
+  color: #fff;
+  margin: 0 -1200px;
+  padding: 15px 1200px;
+
+  @media (max-width: $tablet) {
+    padding-top: 30px;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .menu {
+    margin: 0;
+    padding: 0;
+
+    .sub-menu {
+      display: none;
+    }
+  }
+
+  .menu-item {
+    display: inline-block;
+    line-height: 1;
+    margin: 0 0 0 30px;
+    padding: 0;
+
+    @media (max-width: $tablet) {
+      display: block;
+      margin: 0;
+      padding: 12px 0;
+    }
+
+    &:first-child {
+      margin: 0;
+    }
+  }
+}
+
+.footer-bottom-first {  
+  @media (min-width: $tablet) {
+    float: left;
+  }
+}
+
+.footer-bottom-second {
+  @media (max-width: $tablet) {
+    border-top: 1px solid rgba(#fff, .12);
+    margin: 30px 0 0 0;
+    padding: 30px 0 0 0;
+  }
+
+  @media (min-width: $tablet) {
+    float: right;
+  }
+}

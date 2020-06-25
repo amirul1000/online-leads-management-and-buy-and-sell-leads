@@ -1,0 +1,38 @@
+.widget_siteorigin-panels-postloop {
+	background-color: #f9f9f9;
+	margin: 0 -1200px;
+	padding: 0 1200px;
+
+	.post.type-partner {
+		border: 0;
+		margin: 0;
+		padding: 0;
+
+		@media (min-width: $desktop) {
+			@include span(2 of 10);
+
+			&:nth-child(5n) {
+				@include last();
+			}
+		}
+
+		.post-thumbnail {
+			padding: 50px 0;
+			float: none;
+			margin: 0;
+			text-align: center;
+
+			img {
+			    box-sizing: content-box;
+			    display: inline-block;
+			    filter: grayscale(1);
+			    max-width: 80% !important;
+			    max-height: 50px;
+			    opacity: .4;
+			    transition: all .15s linear;
+			    vertical-align: middle;		
+			    width: auto;		
+			}
+		}
+	}
+}

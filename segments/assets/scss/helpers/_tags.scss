@@ -1,0 +1,75 @@
+.label {
+  // border: 1px solid rgba(#000, .09);
+  background-color: rgba(#000, .06);
+  border-radius: 3px;
+  color: $color-black;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 4px 10px;
+  text-transform: uppercase;
+}
+
+.post-meta-tags {
+  margin: 0 0 30px 0;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    .tag {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+table .tag, .tags .tag {
+  background-color: rgba(#000, .06);
+  border: 0;
+  border-radius: 0 3px 3px 0;
+  border-left: 0;
+  color: $color-black-darker;
+  display: inline-block;
+  height: 12px;
+  font-size: 10px;
+  font-weight: 500;
+  margin: 0 0 0 14px;
+  padding: 4px 8px;
+  position: relative;
+  text-transform: uppercase;
+
+  a {
+    color: $color-black-darker;
+    text-decoration: none;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &.has-color {
+    border: 1px solid transparent;
+    color: #fff;
+  }
+
+  &:before {
+    border: 10px solid transparent;
+    border-right-color: rgba(#000, .06);
+    content: '';
+    display: inline-block;
+    left: -20px;
+    position: absolute;
+    top: 0;
+  }
+
+  &:after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    left: -1px;
+    height: 4px;
+    position: absolute;
+    top: 8px;
+    width: 4px;
+  }
+}

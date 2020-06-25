@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Segments';
+  src:
+    url('fonts/Segments.ttf?j9o3fb') format('truetype'),
+    url('fonts/Segments.woff?j9o3fb') format('woff'),
+    url('fonts/Segments.svg?j9o3fb#Segments') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Segments';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-settings:before {
+  content: "\e909";
+}
+.icon-add:before {
+  content: "\e908";
+}
+.icon-remove:before {
+  content: "\e907";
+}
+.icon-check:before {
+  content: "\e90f";
+}
+.icon-protection:before {
+  content: "\e90d";
+}
+.icon-profile:before {
+  content: "\e90e";
+}
+.icon-eye:before {
+  content: "\e90c";
+}
+.icon-star-full:before {
+  content: "\e90a";
+}
+.icon-arrow-backward:before {
+  content: "\e90b";
+}
+.icon-arrow-forward:before {
+  content: "\e906";
+}
+.icon-search:before {
+  content: "\e905";
+}
+.icon-caret-up:before {
+  content: "\e901";
+}
+.icon-caret-down:before {
+  content: "\e902";
+}
+.icon-arrow-left:before {
+  content: "\e903";
+}
+.icon-arrow-right:before {
+  content: "\e904";
+}
+.icon-dashboard:before {
+  content: "\e900";
+}
+.icon-folder-check:before {
+  content: "\e910";
+}
+.icon-capture-form:before {
+  content: "\e911";
+}
+.icon-file:before {
+  content: "\e917";
+}
+.icon-proposal:before {
+  content: "\e937";
+}
+.icon-expenses:before {
+  content: "\e9ae";
+}
+.icon-network-business:before {
+  content: "\ea03";
+}
+.icon-share-signal-user:before {
+  content: "\ea05";
+}
+.icon-customer:before {
+  content: "\ea39";
+}
+.icon-lead:before {
+  content: "\ea3e";
+}
+.icon-download:before {
+  content: "\ea4a";
+}
+.icon-close:before {
+  content: "\ea52";
+}
+.icon-pencil:before {
+  content: "\ea55";
+}
+.icon-id-card:before {
+  content: "\eba0";
+}
+.icon-calendar:before {
+  content: "\eba9";
+}
+.icon-paperplane:before {
+  content: "\ebab";
+}
+

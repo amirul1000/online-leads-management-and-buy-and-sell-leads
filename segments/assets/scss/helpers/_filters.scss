@@ -1,0 +1,109 @@
+.workforce-filter {
+  @include susy-clearfix();
+
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 3px;  
+  margin: 0 0 30px 0;
+  padding: 20px 20px 15px 20px;
+
+  .form-group {
+      @media (min-width: $desktop) {
+          @include span(3 of 15);
+
+          margin-top: 15px;
+          &:nth-child(5n) {
+            @include last();
+          }
+      }
+    
+  }
+
+  .button {
+    @extend .btn, .btn-secondary;
+
+    box-sizing: border-box;
+    height: 39px;
+    line-height: 39px;
+    margin-top: 18px;
+    width: 100%;
+
+    @media (max-width: $tablet) {
+      margin-top: 0;
+    }
+  }
+}
+
+.workforce-filter-title {
+  @include susy-clearfix();
+
+  border-bottom: 1px solid rgba(#000, .04);
+  margin: 0;
+  padding: 0 0 15px 0;
+
+  @media (max-width: $tablet) {
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.workforce-filter-actions {
+  float: right;
+
+  a {
+    background-color: #fff;
+    border: 1px solid rgba(#000, .09);
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: $color-black-light;
+    display: inline-block;
+    font-size: 12px;
+    height: 26px;
+    line-height: 24px;
+    margin: 0 0 0 30px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    width: 26px;
+
+    &:hover {
+      color: $color-black-darker;
+    }
+
+    &.workforce-filter-export-csv {
+      font-size: 0;
+
+      &:after {
+        -webkit-font-smoothing: antialiased;
+        content: '\ea4a';
+        font-family: 'Segments';
+        font-size: 14px;
+      }
+    }
+
+    &.workforce-filter-reset {
+      font-size: 0;
+      margin: 0 0 0 10px;
+
+      &:after {
+        -webkit-font-smoothing: antialiased;
+        content: '\ea52';
+        font-family: 'Segments';
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+.workforce-filter-form-inner {
+  @include susy-clearfix();
+}

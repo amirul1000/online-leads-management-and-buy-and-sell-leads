@@ -1,0 +1,36 @@
+.tooltipster-base {
+  display: none;
+
+  .side-xs & {
+    display: block;
+  }
+}
+
+.tooltipster-box {
+  background-color: #313131 !important;
+  border: 0 !important;
+  font-size: 11px;
+}
+
+.tooltipster-sidetip .tooltipster-content {
+  padding: 3px 12px;
+}
+
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow {
+  height: 14px !important;
+  margin-top: -14px;
+  left: 5px;
+  /* same as .tooltipster-left .tooltipster-arrow */
+  top: 0;
+  width: 4px;
+}
+
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background {
+  border-right-color: #313131;
+  left: 0;
+  top: 0;
+}
+
+.tooltipster-sidetip .tooltipster-arrow-border {
+  border: 0 !important;
+}

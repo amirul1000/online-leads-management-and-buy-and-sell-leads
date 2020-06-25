@@ -1,0 +1,55 @@
+.alerts {  
+  margin: 0 -40px;
+  position: relative;
+  top: -41px;
+
+  .public & {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: auto;
+    z-index: 9999;
+  }
+}
+
+.alert {
+  .public & {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  margin: 0;
+  padding: 16px 40px;
+  position: relative;
+}
+
+.alert-close {
+  cursor: pointer;
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  .public & {
+    right: 80px;
+  }
+}
+
+.alert-success {
+  background-color: $color-green;
+  color: #fff;
+
+  a {
+    color: #fff;
+  }
+}
+
+.alert-danger {
+  background-color: $color-red;
+  color: #fff;
+
+  a {
+    color: #fff;
+  }
+}

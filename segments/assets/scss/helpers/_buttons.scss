@@ -1,0 +1,91 @@
+.btn {
+	background-color: #fff;
+	border: 0;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 600;
+	height: 42px;
+	line-height: 42px;
+	padding: 0 24px;
+	text-decoration: none;
+	text-shadow: 0 1px 2px rgba(#000, .1);
+	text-transform: uppercase;
+	transition: background-color .2s ease;
+	vertical-align: middle;
+
+	i {
+		font-size: 20px;
+		margin: 0 10px 0 -4px;	
+		vertical-align: -4px;
+
+		&.nova-user-add {
+			vertical-align: -2px;
+		}
+	}
+}
+
+.btn-green {
+	background-color: $color-green;
+	color: #fff;
+
+	&:active, &:focus, &:hover {
+		background-color: darken($color-green, 5%);
+	}
+}
+
+.btn-primary {
+	background-color: $color-primary;
+	color: #fff;
+
+	&:active, &:focus, &:hover {
+		background-color: darken($color-primary, 5%);
+	}
+}
+
+.btn-secondary {
+	background-color: $color-secondary;
+	color: #fff;
+
+	&:active, &:focus, &:hover {
+		background-color: darken($color-secondary, 5%);
+	}
+}
+
+.btn-small {
+	font-size: 11px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 12px;
+}
+
+.cmb-attach-list {
+	list-style: none;
+	padding: 0;
+	max-width: 320px;
+
+	li {
+		border: 1px solid rgba(#000, .09);
+		border-radius: 3px;
+		font-size: 12px;
+		margin: 0 0 10px 0;
+		padding: 5px 10px;
+
+		strong {
+			color: $color-black-darker;
+			font-weight: 500;
+		}
+	}
+}
+
+.login-form {
+	@include susy-clearfix();
+
+	.button {
+		@extend .btn, .btn-secondary;
+
+		float: right;
+	}
+}
+
+

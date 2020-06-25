@@ -1,0 +1,36 @@
+.post-type-archive {
+	.post.type-service {
+		border-bottom: 0;
+		margin-bottom: 30px;
+		padding-bottom: 0;
+
+		@media (min-width: $desktop) {
+			@include span(3 of 9);
+
+			&:nth-child(3n) {
+				@include last();
+			}
+		}
+
+		.post-thumbnail {
+			float: none;
+			margin: 0 0 10px 0;
+			max-width: inherit;			
+
+			img {
+				display: block;
+				height: auto; 
+				width: 100%;
+			}
+		}
+
+		.post-title {
+			font-size: 18px;
+			margin: 0 0 10px 0; 
+		}
+
+		.post-content-wrapper {
+			overflow: visible;
+		}
+	}
+}

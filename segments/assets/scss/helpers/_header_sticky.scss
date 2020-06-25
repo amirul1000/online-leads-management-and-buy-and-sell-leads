@@ -1,0 +1,93 @@
+.header-sticky {
+	background-color: $color-black-darker;
+	left: 0;	
+	position: fixed;
+	right: 0;
+	top: 0;
+	transform: translateY(-100%);
+	transition: all .4s ease;
+	z-index: 11;
+
+	@media (max-width: $desktop) {
+		display: none;
+	}
+	
+	.admin-bar & {
+		top: 32px;
+	}
+
+	&.active {
+		transform: translateY(0);
+	}
+}
+
+.header-sticky-inner {
+	@include container($container-width);
+	box-sizing: border-box;
+	padding: 8px 40px;
+
+	img {
+		margin: 0 10px 0 0;
+		max-height: 28px;
+		vertical-align: middle;
+		width: auto;
+	}
+
+	.site-branding {
+		float: left;
+
+		a  {
+			display: inline-block;
+			margin: 0;
+		}
+	}
+
+	.site-name {
+		color: #fff;
+		display: inline-block;
+		font-size: 15px;
+		font-weight: 400;
+		vertical-align: middle;
+	}
+
+	.site-navigation {
+		float: right;
+
+		@media (max-width: $tablet) {
+			display: none;
+		}
+
+		> div > ul > li {
+			> a {
+				color: #fff;
+				font-size: 13px;
+				font-weight: 400;
+				text-decoration: none;
+
+				&:hover {
+					color: #fff;
+				}
+
+				&:after {
+					color: rgba(#fff, .5);
+				}
+			}
+
+			&:hover {
+				> .sub-menu {
+					top: 33px;
+				}
+			}
+
+			> .sub-menu {				
+				a {
+					text-decoration: none;
+
+					&:after {
+						display: none;
+					}					
+				}
+			}
+		}
+	}
+}

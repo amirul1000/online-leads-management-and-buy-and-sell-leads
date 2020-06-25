@@ -1,0 +1,49 @@
+.pagination {
+  font-size: 13px;
+  padding: 40px 0 20px 0;
+  text-align: center;
+
+  .nav-links {
+    display: inline-block;
+    position: relative;
+
+    > span, > a {
+      background-color: #fff;
+      border: 1px solid rgba(#000, .09);
+      border-radius: 3px;
+      color: $color-black-light;
+      display: inline-block;
+      margin: 0 7px;
+      padding: 10px 16px;
+      position: relative;
+      text-decoration: none;
+      transition: border-color .2s ease, color .2s ease;
+      z-index: 2;
+
+      &:hover {
+        color: $color-black;
+      }
+    }
+
+    > span {
+      background-color: $color-black-darker;
+      border-color: $color-black-darker;
+      color: #fff;
+      font-weight: 500;
+
+      &:hover {
+        color: #fff;
+      }
+
+      &.page-numbers.dots {
+        background-color: transparent;
+        border-color: rgba(#000, .09);
+        color: $color-black-light;
+
+        &:hover {
+          color: $color-black;
+        }
+      }
+    }
+  }
+}

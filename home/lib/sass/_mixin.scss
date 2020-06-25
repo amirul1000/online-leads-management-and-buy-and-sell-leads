@@ -1,0 +1,16 @@
+
+@mixin after($w,$h){
+	position: absolute;
+	content:"";
+	width: $w;
+	height: $h;
+}
+
+@mixin tran($value){
+	-webkit-transition: all $value ease 0s;
+	transition: all $value ease 0s;
+}
+@mixin tform($value){
+	-webkit-transform: $value;
+	transform: $value;
+}

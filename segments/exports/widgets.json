@@ -1,0 +1,138 @@
+[
+  {
+    "sidebar-1": [
+      "nav_menu-8",
+      "text-7",
+      "text-8",
+      "search-3",
+      "recent-posts-3"
+    ],
+    "header-top-left": [
+      "text-6"
+    ],
+    "header-top-right": [
+      "nav_menu-7"
+    ],
+    "backend": [
+      "nav_menu-4",
+      "nav_menu-5",
+      "nav_menu-6",
+      "nav_menu-9"
+    ],
+    "secondary": [
+      "activity-2"
+    ],
+    "footer-top-first": [
+      "text-3"
+    ],
+    "footer-top-second": [
+      "nav_menu-3"
+    ],
+    "footer-top-third": [
+      "text-4"
+    ],
+    "footer-top-fourth": [
+      "text-5"
+    ],
+    "footer-bottom-first": [
+      "text-2"
+    ],
+    "footer-bottom-second": [
+      "nav_menu-2"
+    ]
+  },
+  {
+    "nav_menu": {
+      "8": {
+        "title": "Navigation",
+        "nav_menu": 40
+      },
+      "7": {
+        "nav_menu": 33
+      },
+      "4": {
+        "title": "Clients",
+        "nav_menu": 9
+      },
+      "5": {
+        "title": "Projects",
+        "nav_menu": 20
+      },
+      "6": {
+        "title": "My Company",
+        "nav_menu": 21
+      },
+      "9": {
+        "title": "Leads System",
+        "nav_menu": 48
+      },
+      "3": {
+        "title": "Additional Links",
+        "nav_menu": 2
+      },
+      "2": {
+        "nav_menu": 2
+      },
+      "_multiwidget": 1
+    },
+    "text": {
+      "7": {
+        "title": "",
+        "text": "<a class=\"document-download\" href=\"#\">\r\n<i class=\"fa fa-file-pdf-o\"><\/i> <span>Download Products<\/span>\r\n<\/a>",
+        "filter": false
+      },
+      "8": {
+        "title": "",
+        "text": "<div class=\"promo\">\r\n<h3>Are you interested?<\/h3>\r\n\r\n<p>Donec aliquam, lectus quis lacinia fringilla, nibh turpis rutrum sem, ut mattis magna orci quis ligula. <\/p>\r\n\r\n<a href=\"#\" class=\"btn btn-white\">Learn more<\/a>\r\n<\/div>",
+        "filter": false
+      },
+      "6": {
+        "title": "",
+        "text": "<ul>\r\n<li><strong>E-mail<\/strong> info@example.com<\/li><li><strong>Phone<\/strong> +0-123-456-789<\/li> <li><strong>Location<\/strong> 2725 Davis Place Toledo, OH<\/li>\r\n<\/ul>",
+        "filter": false
+      },
+      "3": {
+        "title": "About Segments",
+        "text": "Segments is <b>CRM WordPress theme<\/b> powered by <b>Workforce plugin<\/b>. We put our best skills and experiences to create first WordPress CRM theme with the <b>front end management<\/b> without accessing WordPress native administration.\r\n",
+        "filter": true
+      },
+      "4": {
+        "title": "Contact Information",
+        "text": "<table class=\"contact\">\r\n    <tbody>\r\n    <tr>\r\n        <th class=\"address\">Address:<\/th>\r\n        <td>1900 Pico Blvd<br>Santa Monica, CA 90405<br>United States<br><\/td>\r\n    <\/tr>\r\n    <tr>\r\n        <th class=\"phone\">Phone:<\/th>\r\n        <td>+48 123 456 789<\/td>\r\n    <\/tr>\r\n    <tr>\r\n        <th class=\"email\">E-mail:<\/th>\r\n        <td><a href=\"mailto:info@example.com\">info@example.com<\/a><\/td>\r\n    <\/tr>\r\n    <tr>\r\n        <th class=\"skype\">Skype:<\/th>\r\n        <td>your.company<\/td>\r\n    <\/tr>\r\n    <\/tbody>\r\n<\/table>",
+        "filter": false
+      },
+      "5": {
+        "title": "Say Hello",
+        "text": "[contact-form-7 id=\"51\" title=\"Contact form 1\"]",
+        "filter": false
+      },
+      "2": {
+        "title": "",
+        "text": "&copy; 2017 Created by Code Vision. All rights reserved.",
+        "filter": false
+      },
+      "_multiwidget": 1
+    },
+    "search": {
+      "3": {
+        "title": "Search Site"
+      },
+      "_multiwidget": 1
+    },
+    "recent-posts": {
+      "3": {
+        "title": "Recent Posts",
+        "number": 5,
+        "show_date": false
+      },
+      "_multiwidget": 1
+    },
+    "activity": {
+      "2": {
+        "title": "Recent Activity",
+        "count": "8"
+      },
+      "_multiwidget": 1
+    }
+  }
+]

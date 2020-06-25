@@ -1,0 +1,92 @@
+.fc-widget-header {
+  background-color: transparent;
+  color: $color-black-darker;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  span {
+    display: block;
+    padding: 4px 0;
+  }
+}
+
+.fc-event-container {
+  font-size: 12px;
+
+  .touchpoint {    
+    background-color: rgba(#000, .04);
+    border-left: 3px solid $color-touchpoint !important; 
+    border: 0;
+    border-radius: 0;
+    color: $color-black-darker;
+    margin: 0 3px;
+    padding: 3px 7px;
+  }
+
+  .task {
+    background-color: rgba(#000, .04);
+    border-left: 3px solid $color-task !important; 
+    border: 0;    
+    border-radius: 0;
+    color: $color-black-darker;
+    margin: 0 3px;
+    padding: 3px 6px;
+  }
+
+  .fc-time {
+    font-weight: 400;
+  }
+}
+
+.fc-toolbar {
+  h2 {
+    color: $color-black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+
+  button {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid rgba(#000, .09);
+    box-shadow: none;
+    height: 36px;
+    padding: 0 14px;
+  }
+}
+
+.fc-prev-button {
+  padding: 0 8px !important;
+}
+
+.fc-icon-left-single-arrow {
+  &:after {
+    -webkit-font-smoothing: antialiased;
+    content: '\e903';
+    color: $color-black;
+    font-family: 'Segments';
+    font-size: 14px;
+    line-height: 1;
+  }
+}
+
+.fc-next-button {
+  padding: 0 8px !important;
+}
+
+.fc-icon-right-single-arrow {
+  &:after {
+    -webkit-font-smoothing: antialiased;
+    content: '\e904';
+    color: $color-black;
+    font-family: 'Segments';
+    font-size: 14px;
+    line-height: 1;
+  }
+}
+
+.fc-unthemed .fc-bg td.fc-today {
+  background-color: rgba(#000, .04);
+}

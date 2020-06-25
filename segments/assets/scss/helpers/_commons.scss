@@ -1,0 +1,390 @@
+.return-back {
+  font-size: 12px;
+  left: 20px;
+  position: absolute;
+  top: 15px;
+
+  a {
+    color: $color-black-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-black;
+    }
+  }
+
+  i {
+    color: $color-black-light;
+    font-size: 15px;
+    margin: 0 6px 0 0;
+    vertical-align: middle;
+  }
+
+  span {
+    vertical-align: middle;
+  }
+}
+
+.demo-information {
+  background-color: rgba(#000, .2);
+  border-radius: 3px;
+  clear: both;
+  color: rgba(#fff, .8);
+  line-height: 1.7;
+  padding: 7px 12px;
+  text-align: center;
+
+  strong {
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .page-template-page-form & {
+    background-color: transparent;
+    border-radius: 0;
+    border-top: 1px solid rgba(#000, .06);
+    color: $color-black;
+    font-size: 12px;
+    padding: 20px 0 0 0;
+
+    strong {
+      color: $color-black-darker;
+    }
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+  color: #fff !important;
+  display: inline-block;
+  font-weight: 500;
+  height: 38px;
+  line-height: 38px;
+  margin: 0 10px 0 0;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 38px;
+
+  &.bordered {
+    border-radius: 3px;
+
+    &.has-image {
+      height: auto;
+      width: auto;
+
+      img {
+        max-height: 30px;
+        width: auto;
+      }
+    }
+  }
+
+  &.has-image {
+    background-color: inherit !important;
+  }
+
+  img {
+    display: block;
+    height: 38px;
+    width: 38px;
+  }
+}
+
+.segments-logo {
+  background-color: $color-secondary;
+  background-image: url('../img/logo-simple.png');
+  background-position: center center;
+  background-size: 12px auto;
+  background-repeat: no-repeat;
+
+  border-radius: 50%;
+  display: inline-block;
+  height: 32px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  width: 32px;
+
+  .side-xs & {
+    margin-right: 0;
+  }
+}
+
+.social {
+  li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+  }
+
+  a {
+    color: $color-black;
+    text-decoration: none;
+  }
+}
+
+table.contact {
+  border: 0 !important;
+  width: 100%;
+
+  td, th {
+    background-color: transparent !important;
+    border: 0 !important;
+    padding: 12px;
+    vertical-align: top;
+
+    a {
+      padding: 0 0 3px 0;
+    }
+  }
+
+
+  tr {
+    &:first-child {
+      th, td {
+        padding-top: 0;
+      }
+    }
+  }
+
+  th {
+    color: $color-black !important;
+    font-size: 13px;
+    font-weight: 400 !important;
+    line-height: 18px;
+    padding-left: 0 !important;
+    text-align: left !important;
+    text-transform: inherit;
+  }
+
+  td, th {
+    border: 0;
+    line-height: 22px;
+    padding: 10px 0;
+
+    &:hover {
+      background-image: none !important;
+    }
+  }
+}
+
+p.not-found {
+  font-size: 13px;
+  margin: 0;
+}
+
+.empty {
+  background-image: url('../img/empty.png');
+  background-position: center 30px;
+  background-repeat: no-repeat;
+  background-size: auto 260px;
+  margin: 0 auto;
+  padding: 340px 40px 40px 40px;
+  text-align: center;
+  width: 500px;
+
+  h2 {
+    color: $color-black-darker;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+  }
+
+  p {
+    color: $color-black-light;
+    font-size: 16px;
+    margin: 0 0 30px 0;
+  }
+}
+
+.workforce-stats-money-years {
+  border-bottom: 1px solid rgba(#000, .09);
+  list-style: none;
+  margin: -15px -25px 25px -25px;
+  padding: 0 25px 10px 25px;
+
+  li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+
+    a {
+      color: $color-black-light;
+      font-size: 11px;
+      text-decoration: none;
+    }
+
+    &.current {
+      a {
+        color: $color-black;
+      }
+    }
+  }
+}
+
+#workforce-stats-money-chart {
+  height: 400px;
+  width: 100%;
+
+  .ct-series-a .ct-bar {
+    stroke: $color-green;
+  }
+
+  .ct-series-b .ct-bar {
+    stroke: $color-red;
+  }
+}
+
+
+.list {
+  list-style: none;
+  margin: 0 0 30px 0;
+  padding: 0;
+
+  li {
+    border-bottom: 1px solid rgba(#000, .06);
+    padding: 12px 0;
+
+    a {
+      vertical-align: middle;
+      text-decoration: none;
+    }
+
+    .status, .type {
+      border: 1px solid rgba(#000, .06);
+      border-radius: 3px;
+      font-size: 10px;
+      font-weight: 500;
+      margin: 0 0 0 10px;
+      padding: 2px 8px;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+
+    > .date {
+      float: right;
+      font-size: 12px;
+    }
+
+    &:last-child {
+      border-bottom :0;
+    }    
+  }
+}
+
+.dashboard-actions {
+  position: fixed;
+  right: 0;
+  top: 277px;
+  z-index: 999;
+
+  @media (max-width: $tablet) {
+    display: none;
+  }  
+
+  .admin-bar & {
+    top: 277px;
+
+    @media (max-width: 782px) {
+      top: 291px;      
+    }
+  }  
+}
+
+.dashboard-action {
+  background-color: $color-secondary;
+  border-radius: 3px 0 0 3px;
+  color: #fff;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;    
+  height: 150px;
+  margin: 0 0 15px 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s ease;
+  width: 42px;  
+
+  &:hover {
+    background-color: darken($color-secondary, 5%);
+  }
+
+  span {    
+    display: block;
+    font-size: 11px;
+    height: 42px;
+    line-height: 42px;
+    margin-top: -42px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px rgba(#000, .2);
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    white-space: nowrap;    
+    width: 150px;
+  }
+
+  &.zone-user {
+    background-color: $color-green;
+
+    &:hover {
+      background-color: darken($color-green, 5%);
+    }
+  }
+
+  &.zone-client {
+    height: 120px;
+
+    span {
+      width: 120px;
+    }
+  }
+}
+
+.login-required {
+  background-color: #fafafa;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(#000, .12);
+  color: $color-black;
+  margin: 0 0 30px 0;
+  padding: 20px;
+
+  p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+  }
+}
+
+.page-not-found {
+  height: 320px;  
+  margin: 100px 0 0 0;
+  position: relative;
+  text-align: center;
+
+  h1 {
+    color: $color-black-darker;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding: 100px 0 30px 0;
+  }
+
+  .btn {
+    position: relative;
+    z-index: 10;
+  }
+  
+  &:before {
+    color: rgba(#000, .04);
+    content: '\f059';
+    font-family: 'FontAwesome';
+    font-size: 380px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
